@@ -9,7 +9,7 @@ phases:
       - bundle install --without development
   build:
     commands:
-      - echo Running test suite...
+      - Running test suite...
       - bundle exec rspec
   post_build:
     commands:
