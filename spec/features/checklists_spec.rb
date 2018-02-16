@@ -38,7 +38,6 @@ RSpec.feature 'Checklists', type: :feature do
   end
 
   scenario 'sharing a checklist with another user' do
-    skip
     visit checklist_path(ruby)
     log_in(user)
     click_on(ruby.title)
