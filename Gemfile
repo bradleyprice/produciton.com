@@ -27,7 +27,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'omniauth', '~>1.7.1'
 gem 'omniauth-github', '~>1.3.0'
 
-gem 'devise', '~>4.3.0'
+gem 'devise', '~>4.4.0'
 
 # Paperclip
 gem 'paperclip', '~> 5.0.0'

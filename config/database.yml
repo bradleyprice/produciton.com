@@ -22,3 +22,9 @@ test:
 
 production:
   url: <%= ENV.fetch('DATABASE_URL') { '' } %>
+
+review:
+  <<: *default
+  host: ''
+  username: root
+  database: produciton_review
